@@ -1,0 +1,29 @@
+.socialMedias {
+    display: flex;
+}
+
+.socialMedias ul {
+    list-style: none;
+}
+
+.flex-wrapper-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrapper-row li {
+    margin-left: 20px;
+}
+
+.flex-wrapper-row li:first-child {
+    margin-left: 0px;
+}
+
+.flex-wrapper-row li img {
+    width: 20px;
+}
+
+.flex-wrapper-colum {
+    display: flex;
+    flex-direction: column;
+}

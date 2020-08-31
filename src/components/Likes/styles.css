@@ -1,0 +1,22 @@
+.likeBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.likeBox span {
+    color: var(--color-text-bold);
+    font-weight: bold;
+}
+
+.flex-wrapper-row {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.likeBox .flex-wrapper-row img {
+    width: 30px;
+    margin-right: 8px;
+}
+

@@ -9,7 +9,6 @@ import PostInfo from './components/PostInfo';
 import Quote from './components/Quote';
 import ImageSection from './components/ImageSection';
 import PostSection from './components/PostSection';
-import TagSection from './components/Footer';
 import Footer from './components/Footer';
 
 export default function App() {
