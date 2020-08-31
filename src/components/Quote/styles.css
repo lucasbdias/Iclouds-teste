@@ -1,0 +1,21 @@
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#quote p {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color-text-bold);
+}
+
+#quote span {
+    color: var(--color-primary);
+    font-size: 4rem;
+}
+
+#quote span:last-child {
+    margin-top: 35px;
+}

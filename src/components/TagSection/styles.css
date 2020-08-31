@@ -1,0 +1,47 @@
+.tagSection {
+    display: flex;
+}
+
+.tagSection span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-text-bold);
+    margin-right: 13px;
+    padding-top: 10px;
+}
+
+.tagContent ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    list-style: none;
+}
+
+.tagContent ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 90px;
+    height: 34px;
+    font-weight: bold;
+    font-size: 14px;
+    border: var(--color-primary) 1px solid;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.tagContent ul li:hover {
+    background: var(--color-primary);
+}
+
+.tagContent ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.tagContent ul li:hover > a {
+    color:#fff;
+}

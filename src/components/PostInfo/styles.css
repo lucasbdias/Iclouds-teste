@@ -1,0 +1,17 @@
+#postInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+#postInfo p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-text-bold);
+}
+
+#postInfo p span {
+    color: var(--color-primary);
+}

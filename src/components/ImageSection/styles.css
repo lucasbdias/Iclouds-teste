@@ -1,0 +1,9 @@
+.imageSection {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.imageSection img {
+    margin-left: 100px;
+}

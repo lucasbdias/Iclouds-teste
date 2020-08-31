@@ -1,0 +1,38 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-primary: #ff9932;
+    --color-text-title: #2e3849;
+    --color-text-complement: #8a94a6;
+    --color-text-bold: #566379;
+    --color-text-base: #adb3bd;
+  
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+} 
+
+body {
+    background: var(--color-background);
+    font: 500 1.6rem Arial;
+    color: var(--color-text-base);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}

@@ -1,0 +1,57 @@
+#fisrP {
+    display: flex;
+}
+#firstP p:last-child {
+    margin-top: 40px;
+}
+
+#secondP ol {
+    counter-reset: li;
+}
+#secondP ol li {
+    counter-increment: li;
+    color: var(--color-text-bold);
+}
+#secondP ol li::before {
+    content: counter(li); 
+    color: var(--color-primary);
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+#thirdP ul {
+    list-style: none; 
+}
+
+#thirdP ul li {
+    color: var(--color-text-bold);
+}
+
+#thirdP ul li::before {
+    content: "\2022";  
+    color: var(--color-primary);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+}
+
+#fourthP h3 {
+    color: var(--color-text-title);
+    margin-bottom: 30px;
+}
+
+.flex-colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.global-list {
+    margin-left: 25px;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.text-margin {
+    margin: 0 40px;
+}
