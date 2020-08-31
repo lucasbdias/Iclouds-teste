@@ -55,3 +55,7 @@
 .text-margin {
     margin: 0 40px;
 }
+
+.wrapper {
+    display: flex;
+}

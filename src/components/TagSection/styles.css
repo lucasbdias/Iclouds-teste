@@ -14,14 +14,14 @@
 .tagContent ul {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     list-style: none;
 }
 
 .tagContent ul li {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     margin-right: 5px;
     margin-bottom: 5px;
     width: 90px;

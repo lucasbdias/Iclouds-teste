@@ -27,3 +27,19 @@
     display: flex;
     flex-direction: column;
 }
+
+.flex-wrapper-colum li {
+    margin-bottom: 20px;
+}
+
+.flex-wrapper-colum li:first-child {
+    margin-top: 30px;
+}
+
+.flex-wrapper-colum li:last-child {
+    margin-bottom: 0px;
+}
+
+.flex-wrapper-colum li img {
+    width: 28px;
+}
