@@ -29,10 +29,28 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 768px) {
     :root {
         font-size: 62.5%;
+    }
+    .conatainer {
+        max-width: 700px;
+        padding: 0 64px;
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        font-size: 65%;
+    }
+    .conatainer {
+        min-width: 576px;
+        padding: 0 48px;
     }
 }
