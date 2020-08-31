@@ -4,3 +4,9 @@ aside {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 576px) {
+    aside {
+        display: none;
+    }
+}

@@ -27,7 +27,7 @@
     width: 90px;
     height: 34px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4rem;
     border: var(--color-primary) 1px solid;
     border-radius: 16px;
     cursor: pointer;
@@ -44,4 +44,25 @@
 
 .tagContent ul li:hover > a {
     color:#fff;
+} 
+
+@media (max-width: 768px) {
+    .tagContent ul {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .tagContent {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .tagContent ul {
+        width: 100%;
+    }
+
+    .tagContent ul li {
+        width: 60px;
+        font-size: 1.1rem;
+    }
 }

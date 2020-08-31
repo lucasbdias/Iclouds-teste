@@ -25,8 +25,9 @@ export default function App() {
     return (
         <div className="container">
             <Header title="Design Better. Faster. Together." description="The digital product design platform powering the world best user experiences" />
-            {/*<div className="wrapper">
+            <div className="wrapper">
                 <SideBar />
+
                 <div className="content">
                     <PostInfo category="Por onde começar" />
                     <div id="firstP" className="text-margin">
@@ -43,7 +44,7 @@ export default function App() {
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et animi atque maxime quasi alias iure p
                         </p>
                     </div>
-                    <Quote citation="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit impedit molestiae laborum,"  />
+                    <Quote citation="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit impedit molestiae laborum," />
                     <div id="secondP" className="text-margin flex-colum">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, dignissimos rerum sit, nostrum reiciendis illum commodi earum ipsa similique nobis adipisci quaerat eum, explicabo tempora autem consectetur distinctio quisquam?
@@ -82,8 +83,9 @@ export default function App() {
                     </div>
                     <PostSection title="Design Better. Faster. Together" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, dignissimos rerum sit, nostrum reiciendis" />
                 </div>
+            
             </div>
-            <Footer />*/}
+            <Footer />
         </div>
     )
 }

@@ -8,3 +8,15 @@
 .imageSection img {
     margin-left: 100px;
 }
+
+@media (max-width: 576px) {
+    .imageSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageSection img {
+        width: 50%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+}

@@ -19,3 +19,13 @@
 #quote span:last-child {
     margin-top: 35px;
 }
+
+@media (max-width: 576px) {
+    #quote p {
+        font-size: 2.5rem;
+    }
+    
+    #quote span {
+        font-size: 3.5rem;
+    }
+}

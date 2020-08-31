@@ -43,3 +43,18 @@
 .flex-wrapper-colum li img {
     width: 28px;
 }
+
+@media (max-width: 768px) {
+    .flex-wrapper-row li img {
+        width: 17px;
+    }
+}
+
+@media (max-width: 576px) {
+    .flex-wrapper-colum li img {
+        width: 18px;
+    }
+    .flex-wrapper-row li img {
+        width: 13px;
+    }
+} 

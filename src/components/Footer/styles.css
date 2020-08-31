@@ -4,4 +4,15 @@ footer {
 
 footer div {
     display: flex;
+} 
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }

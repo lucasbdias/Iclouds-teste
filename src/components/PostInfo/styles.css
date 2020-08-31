@@ -15,3 +15,13 @@
 #postInfo p span {
     color: var(--color-primary);
 }
+
+
+@media (max-width: 576px) {
+    #postInfo {
+        flex-direction: column;
+    }
+    #postInfo p {
+        font-size: 1rem;
+    }
+}
