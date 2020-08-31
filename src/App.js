@@ -25,7 +25,7 @@ export default function App() {
     return (
         <div className="container">
             <Header title="Design Better. Faster. Together." description="The digital product design platform powering the world best user experiences" />
-            <div className="wrapper">
+            {/*<div className="wrapper">
                 <SideBar />
                 <div className="content">
                     <PostInfo category="Por onde começar" />
@@ -83,7 +83,7 @@ export default function App() {
                     <PostSection title="Design Better. Faster. Together" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, dignissimos rerum sit, nostrum reiciendis" />
                 </div>
             </div>
-            <Footer />
+            <Footer />*/}
         </div>
     )
 }
