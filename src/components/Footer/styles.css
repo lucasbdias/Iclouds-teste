@@ -1,14 +1,11 @@
 footer {
     display: flex;
+    margin-top: 50px;
 }
 
 footer div {
     display: flex;
 } 
-
-@media (max-width: 768px) {
-    
-}
 
 @media (max-width: 576px) {
     footer {

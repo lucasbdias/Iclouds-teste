@@ -1,6 +1,7 @@
 #fisrP {
     display: flex;
 }
+
 #firstP p:last-child {
     margin-top: 40px;
 }
@@ -52,18 +53,6 @@
     list-style: none;
 }
 
-.text-margin {
-    margin: 0 40px;
-}
-
 .wrapper {
     display: flex;
-}
-
-@media (max-width: 768px) {
-    
-}
-
-@media (max-width: 576px) {
-    
 }

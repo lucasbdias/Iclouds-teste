@@ -14,20 +14,20 @@
 .tagContent ul {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     list-style: none;
 }
 
 .tagContent ul li {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-right: 5px;
     margin-bottom: 5px;
-    width: 90px;
+    width: 65px;
     height: 34px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     border: var(--color-primary) 1px solid;
     border-radius: 16px;
     cursor: pointer;
@@ -47,8 +47,17 @@
 } 
 
 @media (max-width: 768px) {
+    .tagContent {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
     .tagContent ul {
-        width: 90%;
+        width: 100%;
+    }
+
+    .tagContent ul li {
+        width: 60px;
+        font-size: 1.1rem;
     }
 }
 

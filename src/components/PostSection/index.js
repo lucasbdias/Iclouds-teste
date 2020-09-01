@@ -12,7 +12,7 @@ export default function PostSection({title, description}) {
             <main>
                 <h3>{title}</h3>
                 <p>{description}</p>
-            </main>
+            </main> 
             <footer>
                 <BasicInfo postDate="01/SETEMBRO/2020" readTime="7" />
                 <img src={avatarImage} alt="Avatar Image"/>

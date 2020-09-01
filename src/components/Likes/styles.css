@@ -32,10 +32,6 @@
     margin-bottom: 8px;
 }
 
-@media (max-width: 768px) {
-    
-}
-
 @media (max-width: 576px) {
     .likeBox .flex-wrapper-columm img {
         width: 30px;
