@@ -3,15 +3,18 @@
     justify-content: center;
     margin: 60px 0;
     flex: 1;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .imageSection img {
     margin-left: 100px;
-}
+    margin-bottom: 30px;
+} 
 
 @media (max-width: 768px) {
     .imageSection img {
-        width: 75%;
+        width: 30%;
         margin-left: 10px;
     }
 }
@@ -20,9 +23,10 @@
     .imageSection {
         flex-direction: column;
         align-items: center;
+        width: auto;
     }
     .imageSection img {
-        width: 50%;
+        width: 40%;
         margin-left: 0px;
         margin-bottom: 10px;
     }
