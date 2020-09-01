@@ -15,9 +15,11 @@ import Footer from './components/Footer';
 export default function App() {
     const [books, setBooks] = useState([]);
 
+    const imageLinks = [];
+
     useEffect(() => {
         api.get('projects').then(response => {
-            console.log(response.data.items);
+            setBooks(response.data.items);
         })
     }, []);
 
@@ -28,6 +30,7 @@ export default function App() {
             <PostInfo category="Por onde começar" />
             <div className="wrapper">
                 <SideBar />
+                { /*books.map(book => imageLinks.push(book.volumeInfo.imageLinks.thumbnail))*/}
                 <div className="content">
                         <div id="firstP">
                             <div>
@@ -61,7 +64,7 @@ export default function App() {
                                 <li>Sexto item</li>
                             </ol>
                         </div>
-                        <ImageSection />
+                        <ImageSection imagesSource={imageLinks} />
                         <div id="thirdP" className="flex-colum">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, dignissimos rerum sit, nostrum reiciendis illum commodi earum ipsa similique nobis adipisci quaerat eum, explicabo tempora autem consectetur distinctio quisquam?
@@ -75,7 +78,7 @@ export default function App() {
                                 <li>Sexto item</li>
                             </ul>
                         </div>
-                        <ImageSection />
+                        <ImageSection imagesSource={imageLinks} />
                         <div id="fourthP">
                             <h3>Aint output sain crays</h3>
                             <p>

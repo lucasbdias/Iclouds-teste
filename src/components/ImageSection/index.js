@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-export default function ImageSection({src}) {
+export default function ImageSection({imagesSource}) {
     return (
         <div className="imageSection">
             <img src="http://books.google.com/books/content?id=-DFjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt="First Image"/>
