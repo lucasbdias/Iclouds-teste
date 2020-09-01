@@ -22,15 +22,14 @@ export default function App() {
             setBooks(response.data.items);
         })
     }, []);
-
-
+    books.forEach(book => imageLinks.push(book.volumeInfo.imageLinks.thumbnail));
+    
     return (
         <div className="container">
             <Header title="Design Better. Faster. Together." description="The digital product design platform powering the world best user experiences" />
             <PostInfo category="Por onde começar" />
             <div className="wrapper">
                 <SideBar />
-                {books.forEach(book => imageLinks.push(book.volumeInfo.imageLinks.thumbnail))}
                 <div className="content">
                         <div id="firstP">
                             <div>
