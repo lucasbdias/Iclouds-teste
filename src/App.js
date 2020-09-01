@@ -30,7 +30,7 @@ export default function App() {
             <PostInfo category="Por onde começar" />
             <div className="wrapper">
                 <SideBar />
-                { /*books.map(book => imageLinks.push(book.volumeInfo.imageLinks.thumbnail))*/}
+                {books.forEach(book => imageLinks.push(book.volumeInfo.imageLinks.thumbnail))}
                 <div className="content">
                         <div id="firstP">
                             <div>
