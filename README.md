@@ -1,5 +1,10 @@
 <p align="center">
    <img src="src/assets/images/iclouds_logo.svg" width="150"/>
+   <p align="center">
+        <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafio-01?color=%2304D361">
+        <img alt="javascript" src="https://img.shields.io/badge/Javascript-100%25-yellow" /> 
+        <img alt="node" src="https://img.shields.io/badge/node-v12.18.3-brightgreen" />
+    </p>
 </p>
 
 # Iclouds Teste Estágio
