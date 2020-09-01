@@ -2,7 +2,7 @@
    <img src="src/assets/images/iclouds_logo.svg" width="150"/>
 </p>
 
-# Iclouds Teste Estágio
+# iClouds Teste Estágio
 
 ---
 

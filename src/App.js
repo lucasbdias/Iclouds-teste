@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import api from './services/api';
 
 import './assets/styles/app.css';
@@ -13,16 +14,18 @@ import PostSection from './components/PostSection';
 import Footer from './components/Footer';
 
 export default function App() {
-    const [books, setBooks] = useState([]);
-
-    const imageLinks = [];
+    const [imageLinks, setImageLinks] = useState([]);
 
     useEffect(() => {
-        api.get('projects').then(response => {
-            setBooks(response.data.items);
-        })
+        async function loadBooks() {
+            const { data } = await api.get('/volumes?q=BATMAN');
+
+            setImageLinks(
+                data.items.map(book => book.volumeInfo.imageLinks.thumbnail).slice(0,3)
+            );
+        }
+        loadBooks();
     }, []);
-    books.forEach(book => imageLinks.push(book.volumeInfo.imageLinks.thumbnail));
     
     return (
         <div className="container">
