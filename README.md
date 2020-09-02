@@ -42,7 +42,7 @@ App desenvolvido em ReactJS seguindo o layout proposto e preenchendo algumas inf
 
 # 💡 Melhorias
 
-- Acredito que poderia melhorar os componentes criados, outros meios disponibilados pelo React.
+- Acredito que poderia melhorar os componentes criados por outros meios disponibilazados pelo React.
 - A responsividade pode ser aprimorada.
 - Acredito que poderia melhorar a forma de receber as informações vinda da API.
 
